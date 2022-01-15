@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="123f1ce3-e3bd-4d1d-af62-40e6eb96d8b2" name="Changes" comment="" />
+    <list default="true" id="123f1ce3-e3bd-4d1d-af62-40e6eb96d8b2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject5/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject5/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,15 +25,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="23N533uAByaHNCuN7o1rw2oR9Q8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GitStage.ChangesTree.GroupingKeys" value="directory&#10;module&#10;repository" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -71,6 +84,18 @@
       <workItem from="1641630782779" duration="886000" />
       <workItem from="1641632984141" duration="19000" />
       <workItem from="1641799471819" duration="121000" />
+      <workItem from="1641799788889" duration="1724000" />
+      <workItem from="1641803727847" duration="889000" />
+      <workItem from="1641809650281" duration="31000" />
+      <workItem from="1641811243849" duration="15000" />
+      <workItem from="1641811464027" duration="16000" />
+      <workItem from="1641812152421" duration="209000" />
+      <workItem from="1641905543770" duration="6498000" />
+      <workItem from="1641922208287" duration="212000" />
+      <workItem from="1641991343754" duration="60000" />
+      <workItem from="1642164876051" duration="5463000" />
+      <workItem from="1642241155679" duration="642000" />
+      <workItem from="1642245940898" duration="47000" />
     </task>
     <servers />
   </component>
