@@ -8,7 +8,6 @@ class GenreSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 
-
 class RatingSerializer(serializers.ModelSerializer):
     class Meta:
         model = Rating
@@ -47,3 +46,39 @@ class MovieDetailSerializer(serializers.ModelSerializer):
         # fields = '__all__'
         # fields = 'id name'.split()
         fields = ['id', 'name', 'description', 'duration', 'count_genres', 'rating']
+
+
+from rest_framework.exceptions import ValidationError
+
+
+class GenreCreatedSerializer(serializers.Serializer):
+    name = serializers.CharField()
+    is_active = serializers.BooleanField()
+
+    def validate_name(self, name):
+        movies = Genre.objects.filter(name=name)
+        if movies:
+            raise ValidationError('Genres already exists!')
+        return name
+
+
+class MovieCreateSerializer(serializers.Serializer):
+    name = serializers.CharField(min_length=3, max_length=20)
+    description = serializers.CharField(required=True)
+    duration = serializers.IntegerField
+    is_active = serializers.BooleanField(required=True)
+    genres = serializers.ListField(child=serializers.IntegerField())
+    created_genres = serializers.ListField(child=GenreCreatedSerializer())
+
+    def validate_name(self, name):
+        movies = Movie.objects.filter(name=name)  # тотечная валидация(ищет по имени)
+        if movies:
+            raise ValidationError('Movie already exists!')
+        return name
+
+    # def validate(self, attrs):
+    #     name = attrs['name']
+    #     movies = Movie.objects.filter(name=name)  # кастомная(ручная) валидация
+    #     if movies:
+    #         raise ValidationError('Movie already exists!')
+    #     return name
