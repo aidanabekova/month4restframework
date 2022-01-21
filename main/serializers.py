@@ -71,10 +71,17 @@ class MovieCreateSerializer(serializers.Serializer):
     created_genres = serializers.ListField(child=GenreCreatedSerializer())
 
     def validate_name(self, name):
-        movies = Movie.objects.filter(name=name)  # тотечная валидация(ищет по имени)
-        if movies:
-            raise ValidationError('Movie already exists!')
+        for i in name:
+            if ord(i) >= 1040 and ord(i) <= 1103:  # проверка на русский язык
+                raise ValidationError('Please use english only!')
         return name
+
+    #
+    # def validate_name(self, name):
+    #     movies = Movie.objects.filter(name=name)  # тотечная валидация(ищет по имени)
+    #     if movies:
+    #         raise ValidationError('Movie already exists!')
+    #     return name
 
     # def validate(self, attrs):
     #     name = attrs['name']
