@@ -87,5 +87,4 @@ class MovieCreateSerializer(serializers.Serializer):
     #     name = attrs['name']
     #     movies = Movie.objects.filter(name=name)  # кастомная(ручная) валидация
     #     if movies:
-    #         raise ValidationError('Movie already exists!')
-    #     return name
+    #         raise ValidationEr

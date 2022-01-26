@@ -3,6 +3,16 @@ from rest_framework.response import Response
 from rest_framework import status
 from .serializers import MovieSerializer, MovieDetailSerializer, MovieCreateSerializer
 from .models import Movie
+from django.contrib.auth import authenticate
+from rest_framework.decorators import api_view
+from rest_framework.authtoken.models import Token
+from rest_framework.response import Response
+from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView, GenericAPIView
+from main.models import Genre
+from main.serializers import GenreSerializer
+from rest_framework.pagination import PageNumberPagination
+
+from django.contrib.auth.models import User
 
 
 @api_view(['GET'])
@@ -43,7 +53,6 @@ def movie_list_view(request):
         return Response(data=MovieSerializer(movie).data, status=status.HTTP_201_CREATED)
 
 
-
 @api_view(['GET', 'DELETE'])
 def movie_detail_view(request, id):
     try:
@@ -57,3 +66,17 @@ def movie_detail_view(request, id):
     elif request.method == 'DELETE':
         movie.delete()
         return Response(data={'message': 'Movie successfully removed!'})
+
+
+class GenreListCreateAPIView(ListCreateAPIView):
+    queryset = Genre.objects.all()
+    serializer_class = GenreSerializer
+    pagination_class = PageNumberPagination
+
+
+class GenreDetailUpdateDeleteAPIview(RetrieveUpdateDestroyAPIView):
+    queryset = Genre.objects.all()
+    serializer_class = GenreSerializer
+    lookup_field = 'pk'
+
+
