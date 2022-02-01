@@ -68,7 +68,7 @@ class MovieCreateSerializer(serializers.Serializer):
     duration = serializers.IntegerField
     is_active = serializers.BooleanField(required=True)
     genres = serializers.ListField(child=serializers.IntegerField())
-    created_genres = serializers.ListField(child=GenreCreatedSerializer())
+    created_genres = serializers.ListField(child=GenreCreatedSerializer(), required=False)
 
     def validate_name(self, name):
         for i in name:

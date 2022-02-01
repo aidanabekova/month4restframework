@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="123f1ce3-e3bd-4d1d-af62-40e6eb96d8b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoProject5/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject5/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoProject5/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject5/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/djangoProject5/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject5/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +38,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="GitStage.ChangesTree.GroupingKeys" value="directory&#10;module&#10;repository" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="djangoProject5" type="Python.DjangoServer" factoryName="Django server">
@@ -50,6 +59,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="djangoProject5.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -116,10 +126,34 @@
       <workItem from="1643193001398" duration="596000" />
       <workItem from="1643207413315" duration="56000" />
       <workItem from="1643217282498" duration="104000" />
+      <workItem from="1643225049055" duration="105000" />
+      <workItem from="1643284412924" duration="30000" />
+      <workItem from="1643372736385" duration="8614000" />
+      <workItem from="1643463644651" duration="5778000" />
+      <workItem from="1643542336754" duration="1992000" />
+      <workItem from="1643628257917" duration="99000" />
+      <workItem from="1643630790401" duration="198000" />
+      <workItem from="1643632077962" duration="336000" />
+      <workItem from="1643632709361" duration="2708000" />
+      <workItem from="1643717176379" duration="722000" />
+      <workItem from="1643718439981" duration="1541000" />
+      <workItem from="1643733532631" duration="472000" />
+      <workItem from="1643741743733" duration="8153000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
