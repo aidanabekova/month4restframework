@@ -28,7 +28,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/.env" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/requirements.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/manage.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/djangoProject5/settings.py" root0="FORCE_HIGHLIGHTING" />
@@ -152,7 +151,7 @@
       <workItem from="1643968047681" duration="3323000" />
       <workItem from="1644328125189" duration="163000" />
       <workItem from="1644328558848" duration="4212000" />
-      <workItem from="1644409660072" duration="7047000" />
+      <workItem from="1644409660072" duration="7427000" />
     </task>
     <servers />
   </component>
