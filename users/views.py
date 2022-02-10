@@ -8,6 +8,7 @@ from django.contrib.auth.models import User  # для регистрации ю�
 
 
 class LoginAPIview(GenericAPIView):
+
     def post(self, request):
         user = authenticate(**request.data)
         if user:

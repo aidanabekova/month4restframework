@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="123f1ce3-e3bd-4d1d-af62-40e6eb96d8b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/djangoProject5/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject5/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject5/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject5/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangoProject5/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangoProject5/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose-local.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.env" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/requirements.txt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/manage.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/djangoProject5/settings.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -138,7 +143,16 @@
       <workItem from="1643717176379" duration="722000" />
       <workItem from="1643718439981" duration="1541000" />
       <workItem from="1643733532631" duration="472000" />
-      <workItem from="1643741743733" duration="8153000" />
+      <workItem from="1643741743733" duration="9309000" />
+      <workItem from="1643809313810" duration="140000" />
+      <workItem from="1643892416368" duration="3252000" />
+      <workItem from="1643895888874" duration="1419000" />
+      <workItem from="1643902097810" duration="1899000" />
+      <workItem from="1643960730427" duration="680000" />
+      <workItem from="1643968047681" duration="3323000" />
+      <workItem from="1644328125189" duration="163000" />
+      <workItem from="1644328558848" duration="4212000" />
+      <workItem from="1644409660072" duration="7047000" />
     </task>
     <servers />
   </component>
